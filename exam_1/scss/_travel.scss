@@ -1,0 +1,60 @@
+.travel {
+  background: url("../img/bg_travel.png") no-repeat center center;
+  background-size: cover;
+  min-height: 730px;
+
+  .container {
+    @include flexCenter(column);
+    .travel_title{
+      color: #ffffff;
+      font-family: Aleo,sans-serif;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 26px;
+    }
+    .travel_response {
+      padding: 20px;
+
+      .travel_photo {
+        //width: 45%;
+      }
+
+        .travel_description {
+          padding-bottom: 25px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .response_name {
+            color: #fefefe;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 26px;
+            text-transform: uppercase;
+          }
+
+          .response_text {
+            color: #e8e8e8;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            ///* Text style for "" */
+            //color: #5474fd;
+            //font-family: "Font Awesome";
+            //font-size: 36px;
+            ///* Text style for "" */
+            //color: #5474fd;
+            //font-family: "Font Awesome";
+            /* Text style for "But I must" */
+            .fas  {
+              color: #5474fd;
+              font-family: "Font Awesome", sans-serif;
+              font-size: 36px;
+            }
+          }
+        }
+      }
+
+  }
+}

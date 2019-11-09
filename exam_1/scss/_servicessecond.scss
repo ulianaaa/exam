@@ -1,0 +1,52 @@
+.servicessecond {
+  background: url("../img/services2.png") no-repeat center center;
+  background-size: cover;
+  min-height: 700px;
+
+  .container {
+
+    padding-top: 230px;
+
+    .services_block {
+
+      width: 100%;
+      min-height: 371px;
+      background-color: #232323;
+      opacity: 0.9;
+
+      .services_country {
+        text-align: left;
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        /* Text style for "Spain" */
+        letter-spacing: 1.5px;
+      }
+
+      .services_title {
+        text-align: left;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+      }
+
+      .services_description {
+        text-align: left;
+        /* Style for "Grand Spai" */
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+      }
+      .services_btn{
+        @include btn;
+      }
+    }
+  }
+}

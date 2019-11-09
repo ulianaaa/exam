@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import 'mixin.scss';
+
+#hero {
+  background: url("../img/bg1.png") no-repeat center center;
+  background-size: cover;
+
+  .container {
+    @include flexCenter(column);
+    text-align: center;
+    min-height: 820px;
+
+    .hero_text {
+      padding-bottom: 20px;
+      .hero_title {
+        color: #ffffff;
+        font-family: "Josefin Sans",sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
+        /* Text style for "Bhromaon" */
+        letter-spacing: 4.8px;
+      }
+
+      .hero_slogan {
+        color: #ffffff;
+        font-family: "Josefin Sans",sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 26px;
+        /* Text style for "S, afe Tra" */
+        letter-spacing: 6.82px;
+      }
+      .hero_input{
+        background-color: #ffffff;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+      }
+      .hero__button{
+        height: 60px;
+        border: 2px solid #ffffff;
+        background-color: #5474fd;
+        border:#fff;
+        color: #ffffff;
+        font-family: Aleo;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        /* Text style for "Search" */
+        letter-spacing: 1.4px;
+
+        &:hover {
+          background-color: #9ebade;
+          color: #ffffff;
+        }
+
+        &:active {
+          background-color: #9ebade;
+          color: #ffffff;
+        }
+
+      }
+      .hero_scroll{
+        padding-top: 150px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        /* Text style for "S, croll D" */
+        letter-spacing: 2.8px;
+
+      }
+    }
+
+  }
+}

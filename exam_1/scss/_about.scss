@@ -1,0 +1,58 @@
+.about {
+  background: url("../img/bg_about.png") no-repeat center center;
+  background-size: cover;
+  min-height: 685px;
+
+  .container {
+    padding-top: 100px;
+    .about_text {
+      padding-top: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-around;
+
+      .about_title {
+        padding-top: 120px;
+        color: #ffffff;
+        font-family: Aleo, sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 26px;
+      }
+
+      .about_description {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #e8e8e8;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        /* Text style for "T, ion and" */
+        letter-spacing: 1.6px;
+      }
+
+      .about_btn {
+
+        @include btn;
+        }
+
+    }
+
+    .about_images {
+      padding-top: 50px;
+      .image_first {
+
+
+        min-height: 220px;
+
+      }
+
+      .image_second {
+
+        min-height: 220px;
+      }
+    }
+  }
+}

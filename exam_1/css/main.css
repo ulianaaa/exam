@@ -1,0 +1,352 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+#hero {
+  background: url("../img/bg1.png") no-repeat center center;
+  background-size: cover; }
+  #hero .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 820px; }
+    #hero .container .hero_text {
+      padding-bottom: 20px; }
+      #hero .container .hero_text .hero_title {
+        color: #ffffff;
+        font-family: "Josefin Sans",sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
+        /* Text style for "Bhromaon" */
+        letter-spacing: 4.8px; }
+      #hero .container .hero_text .hero_slogan {
+        color: #ffffff;
+        font-family: "Josefin Sans",sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 26px;
+        /* Text style for "S, afe Tra" */
+        letter-spacing: 6.82px; }
+      #hero .container .hero_text .hero_input {
+        background-color: #ffffff;
+        height: 60px;
+        display: flex;
+        justify-content: center; }
+      #hero .container .hero_text .hero__button {
+        height: 60px;
+        border: 2px solid #ffffff;
+        background-color: #5474fd;
+        border: #fff;
+        color: #ffffff;
+        font-family: Aleo;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        /* Text style for "Search" */
+        letter-spacing: 1.4px; }
+        #hero .container .hero_text .hero__button:hover {
+          background-color: #9ebade;
+          color: #ffffff; }
+        #hero .container .hero_text .hero__button:active {
+          background-color: #9ebade;
+          color: #ffffff; }
+      #hero .container .hero_text .hero_scroll {
+        padding-top: 150px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        /* Text style for "S, croll D" */
+        letter-spacing: 2.8px; }
+
+.menu {
+  background-color: #5474fd;
+  min-height: 80px; }
+  .menu .container {
+    padding-top: 30px; }
+    .menu .container .menu_title {
+      text-align: left;
+      color: #ffffff;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 26px;
+      text-transform: uppercase;
+      /* Text style for "Bhromaon" */
+      letter-spacing: 2.4px; }
+    .menu .container .menu__navigation {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      .menu .container .menu__navigation .navigation__item {
+        color: #ffffff;
+        font-family: Aleo, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase; }
+
+.about {
+  background: url("../img/bg_about.png") no-repeat center center;
+  background-size: cover;
+  min-height: 685px; }
+  .about .container {
+    padding-top: 100px; }
+    .about .container .about_text {
+      padding-top: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-around; }
+      .about .container .about_text .about_title {
+        padding-top: 120px;
+        color: #ffffff;
+        font-family: Aleo, sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 26px; }
+      .about .container .about_text .about_description {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        color: #e8e8e8;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        /* Text style for "T, ion and" */
+        letter-spacing: 1.6px; }
+      .about .container .about_text .about_btn {
+        color: #ffffff;
+        background-color: #5474fd;
+        border: #5474fd;
+        background-image: url("../img/btn.png");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 60px;
+        font-family: Aleo;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        /* Text style for "Book Now" */
+        letter-spacing: 1.2px; }
+        .about .container .about_text .about_btn:hover {
+          background-color: #9ebade;
+          color: #ffffff; }
+        .about .container .about_text .about_btn:active {
+          background-color: #9ebade;
+          color: #ffffff; }
+    .about .container .about_images {
+      padding-top: 50px; }
+      .about .container .about_images .image_first {
+        min-height: 220px; }
+      .about .container .about_images .image_second {
+        min-height: 220px; }
+
+.icons {
+  background-color: #333333; }
+  .icons .container {
+    min-height: 337px;
+    padding-top: 100px; }
+    .icons .container .item__title {
+      color: #e8e8e8;
+      font-family: Aleo, sans-serif;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 26px; }
+
+.servicesfirst {
+  background: url("../img/services1.png") no-repeat center center;
+  background-size: cover;
+  min-height: 700px; }
+  .servicesfirst .container {
+    padding-top: 230px; }
+    .servicesfirst .container .services_block {
+      width: 100%;
+      min-height: 371px;
+      background-color: #232323;
+      opacity: 0.9; }
+      .servicesfirst .container .services_block .services_country {
+        text-align: left;
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        /* Text style for "Spain" */
+        letter-spacing: 1.5px; }
+      .servicesfirst .container .services_block .services_title {
+        text-align: left;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase; }
+      .servicesfirst .container .services_block .services_description {
+        text-align: left;
+        /* Style for "Grand Spai" */
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; }
+      .servicesfirst .container .services_block .services_btn {
+        color: #ffffff;
+        background-color: #5474fd;
+        border: #5474fd;
+        background-image: url("../img/btn.png");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 60px;
+        font-family: Aleo;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        /* Text style for "Book Now" */
+        letter-spacing: 1.2px; }
+        .servicesfirst .container .services_block .services_btn:hover {
+          background-color: #9ebade;
+          color: #ffffff; }
+        .servicesfirst .container .services_block .services_btn:active {
+          background-color: #9ebade;
+          color: #ffffff; }
+
+.servicessecond {
+  background: url("../img/services2.png") no-repeat center center;
+  background-size: cover;
+  min-height: 700px; }
+  .servicessecond .container {
+    padding-top: 230px; }
+    .servicessecond .container .services_block {
+      width: 100%;
+      min-height: 371px;
+      background-color: #232323;
+      opacity: 0.9; }
+      .servicessecond .container .services_block .services_country {
+        text-align: left;
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        /* Text style for "Spain" */
+        letter-spacing: 1.5px; }
+      .servicessecond .container .services_block .services_title {
+        text-align: left;
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase; }
+      .servicessecond .container .services_block .services_description {
+        text-align: left;
+        /* Style for "Grand Spai" */
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; }
+      .servicessecond .container .services_block .services_btn {
+        color: #ffffff;
+        background-color: #5474fd;
+        border: #5474fd;
+        background-image: url("../img/btn.png");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 60px;
+        font-family: Aleo;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        /* Text style for "Book Now" */
+        letter-spacing: 1.2px; }
+        .servicessecond .container .services_block .services_btn:hover {
+          background-color: #9ebade;
+          color: #ffffff; }
+        .servicessecond .container .services_block .services_btn:active {
+          background-color: #9ebade;
+          color: #ffffff; }
+
+.travel {
+  background: url("../img/bg_travel.png") no-repeat center center;
+  background-size: cover;
+  min-height: 730px; }
+  .travel .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .travel .container .travel_title {
+      color: #ffffff;
+      font-family: Aleo,sans-serif;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 26px; }
+    .travel .container .travel_response {
+      padding: 20px; }
+      .travel .container .travel_response .travel_description {
+        padding-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .travel .container .travel_response .travel_description .response_name {
+          color: #fefefe;
+          font-family: "Josefin Sans", sans-serif;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 26px;
+          text-transform: uppercase; }
+        .travel .container .travel_response .travel_description .response_text {
+          color: #e8e8e8;
+          font-family: "Josefin Sans", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          /* Text style for "But I must" */ }
+          .travel .container .travel_response .travel_description .response_text .fas {
+            color: #5474fd;
+            font-family: "Font Awesome", sans-serif;
+            font-size: 36px; }
+
+.contact {
+  background-color: #232323;
+  min-height: 268px; }
+  .contact .container {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .contact .container .contact_title {
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 26px;
+      text-transform: uppercase;
+      /* Text style for "Bhromaon" */
+      letter-spacing: 3.36px; }
+    .contact .container .contact_slogan {
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      /* Text style for "S, afe Tra" */
+      letter-spacing: 1.6px; }
+    .contact .container .contact_links {
+      width: 166px; }

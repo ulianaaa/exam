@@ -1,0 +1,35 @@
+.menu {
+  background-color: #5474fd;
+  min-height: 80px;
+
+  .container {
+    padding-top: 30px;
+    .menu_title {
+      text-align: left;
+      color: #ffffff;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 26px;
+      text-transform: uppercase;
+      /* Text style for "Bhromaon" */
+      letter-spacing: 2.4px;
+    }
+
+    .menu__navigation {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      .navigation__item {
+        //padding-left: 20px;
+        color: #ffffff;
+        font-family: Aleo, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+
+      }
+    }
+  }
+}
